@@ -1775,8 +1775,8 @@ header.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 }
 
 #section-introduction h2 {
-	font-size:60px;
-	line-height:70px;
+	font-size:35px;
+	line-height:46px;
 	text-transform:uppercase;
 	font-weight:700;
 	margin:0 0 40px;
@@ -1786,7 +1786,7 @@ header.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 	font-size:20px;
 	padding:0 120px;
 	color:#777777;
-	line-height:30px;
+	line-height:35px;
 	margin:0 0 30px;
 }
 
@@ -5102,11 +5102,13 @@ form.event-register .form-control {
 	/* INTRODUCTION */
 	
 	#section-introduction h2 {
-		font-size:60px;
+		font-size:32px;
 	}
 	
 	#section-introduction p {
 		padding:0 50px;
+        line-height: 30px;
+        font-size:19px;
 	}	
 	
 	#section-portfolio .portfolio-item .hover-overlay {
@@ -5952,12 +5954,13 @@ form.event-register .form-control {
 	/* INTRODUCTION */
 	
 	#section-introduction h2 {
-		font-size:50px;
-		line-height:60px;
+		font-size:28px;
+		line-height:37px;
 	}
 	
 	#section-introduction p {
 		padding:0;
+        font-size:18px;
 	}
 	
 	#section-features .row > div {
