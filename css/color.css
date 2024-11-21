@@ -16,7 +16,6 @@ a,
 .nav.vertical-nav li a:hover,
 form label,
 .owl-carousel .owl-controls .owl-nav div,
-.top-header .header-item,
 .navbar-default .navbar-brand:hover,
 .dropdown-menu > li > a:hover i,
 .jumbotron6 #slide-3 .btn:first-child,
@@ -28,7 +27,6 @@ form label,
 .text-highlight span,
 #section-portfolio .portfolio-item a:hover i,
 footer h3 i,
-footer .navbar-nav > li > a:hover,
 #features .features-sidebar h3,
 #features .features-content h3.features-title i,
 #faq h3,
@@ -68,6 +66,11 @@ header.navbar-transparent .navbar-nav > .open > a,
 header.navbar-transparent .navbar-nav > .open > a:hover, 
 header.navbar-transparent .navbar-nav > .open > a:focus {
 	color:#AD3029;
+}
+
+.top-header .header-item,
+.top-header .header-item a {
+	color:#ededed;
 }
 
 .btn-primary,
