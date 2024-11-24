@@ -6,7 +6,7 @@
 ------------------------------*/
 
 /*------------------------------
-	RED #AD3029
+	RED #B80000
 ------------------------------*/
 
 a,
@@ -65,7 +65,7 @@ header.navbar-transparent .navbar-nav > .active > a:focus,
 header.navbar-transparent .navbar-nav > .open > a, 
 header.navbar-transparent .navbar-nav > .open > a:hover, 
 header.navbar-transparent .navbar-nav > .open > a:focus {
-	color:#AD3029;
+	color:#B80000;
 }
 
 .top-header .header-item,
@@ -125,7 +125,7 @@ header.navbar-transparent .navbar-nav > .open > a:focus {
 .event-ticket.highlighted,
 #scrolltop:hover,
 .table > thead > tr > th {
-    background-color:#AD3029;
+    background-color:#B80000;
 }
 
 .popover,
@@ -144,19 +144,19 @@ header.navbar-transparent .navbar-nav > .open > a:focus {
 #services.services3 .service i,
 #eshop .eshop-sidebar .eshop-widget .checkbox input[type=checkbox]:checked + label:before,
 .countdown > div > span.countdown-number  {
-	border-color:#AD3029;
+	border-color:#B80000;
 }
 
-.popover.left > .arrow {border-left-color:#AD3029;}
-.popover.right > .arrow {border-right-color:#AD3029;}
-.popover.top > .arrow {border-top-color:#AD3029;}
-.popover.bottom > .arrow {border-bottom-color:#AD3029;}
+.popover.left > .arrow {border-left-color:#B80000;}
+.popover.right > .arrow {border-right-color:#B80000;}
+.popover.top > .arrow {border-top-color:#B80000;}
+.popover.bottom > .arrow {border-bottom-color:#B80000;}
 
 /* TRANSPARENT */
 
 .hidden-control.owl-carousel .owl-controls .owl-nav div,
 .jumbotron-event p.event-date {
-	background-color:rgba(184,17,23,0.5);
+	background-color:rgba(184,0,0,0.5);
 }
 
 .jumbotron6 h2,
@@ -165,23 +165,23 @@ header.navbar-transparent .navbar-nav > .open > a:focus {
 .jumbotron-video h2,
 .jumbotron-full-height #slide-2 h2,
 .map-overlay {
-	background-color:rgba(184,17,23,0.8);
+	background-color:rgba(184,0,0,1);
 }
 
 .jumbotron2,
 .jumbotron4 {
-	background-image:linear-gradient(rgba(184,17,23,0.9), rgba(184,17,23,0.9)), url(../../images/bg3.jpg);
+	background-image:linear-gradient(rgba(184,0,0,0.9), rgba(184,0,0,0.9)), url(../../images/bg3.jpg);
 }
 
 .jumbotron7 {
-	background-image:linear-gradient(rgba(184,17,23,0.6), rgba(184,17,23,0.6)),url(../../images/gplaypattern.png);
+	background-image:linear-gradient(rgba(184,0,0,0.6), rgba(184,0,0,0.6)),url(../../images/gplaypattern.png);
 }
 
 #section-blog-posts,
 #section-testimonials,
 #section-statistics,
 .jumbotron1 {
-	background-image:linear-gradient(rgba(184,17,23,0.6), rgba(184,17,23,0.6)), url(../../images/bg3.jpg);
+	background-image:linear-gradient(rgba(184,0,0,0.6), rgba(184,0,0,0.6)), url(../../images/bg3.jpg);
 }
 
 @media (max-width:767px) {
@@ -189,11 +189,11 @@ header.navbar-transparent .navbar-nav > .open > a:focus {
 	.navbar-default .navbar-toggle:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-		color:#AD3029;
+		color:#B80000;
 	}
 	
 	.navbar-default .navbar-collapse {
-		border-color:#AD3029;
+		border-color:#B80000;
 	}
 }
 
@@ -201,7 +201,7 @@ header.navbar-transparent .navbar-nav > .open > a:focus {
 
 a:hover,
 a:focus {
-	color:#96060B;
+	color:#960000;
 }
 
 .btn-primary:hover,
@@ -214,7 +214,7 @@ a:focus {
 .btn-primary:active:focus,
 .pricing-plan h3,
 .pricing-plan p {
-	background-color:#96060B;
+	background-color:#960000;
 }
 
 .btn-primary:hover,
@@ -227,5 +227,5 @@ a:focus {
 .btn-primary:active:focus,
 .blog-timeline .blog-post:hover .blog-post-info,
 .eshop-product .product-sale-label {
-	border-color:#96060B;
+	border-color:#960000;
 }
