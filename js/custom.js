@@ -199,18 +199,50 @@ $(document).ready(function() {
 	/*------------------------------
 		OWL CAROUSEL
 	------------------------------*/
+
+	var fading = false;
+
+	var owl = $('.owl-carousel');
+
+	owl.on('initialized.owl.carousel translated.owl.carousel',
+      function (e) {
+
+          if (e.item.index == 2) // Not sure why first is index 2?
+          {
+              if (fading == false)
+              {
+                  fading = true;
+
+                  window.setTimeout(function () {
+                      if (fading == true)
+                      {
+                          $(".smema-fadein").fadeIn("slow", function () {
+                              fading = false;
+                          });
+                      }
+                  }, 2000);
+              }
+          }
+          else
+          {
+              fading = false;
+              $(".smema-fadein").css("display", "none");
+          }
+      });
 	
-	
-	$("#jumbotron-slider").owlCarousel({
+	owl.owlCarousel({
     	items : 1,
-		loop : true,
+    	loop : true,
+        rewind: true,
 		autoplay : true,
 		dots : false,
-		nav : true,
+		nav: true,
+		autoplayTimeout: 11000,
+		autoplaySpeed: true,
 		navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 		animateOut: 'fadeOut',
-    	animateIn: 'fadeIn'
-  	});
+		animateIn: 'fadeIn'
+	});
 	
 	$("#partners-slider").owlCarousel({
 		dots : false,
