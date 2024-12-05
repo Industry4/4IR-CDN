@@ -207,7 +207,7 @@ $(document).ready(function() {
 	owl.on('initialized.owl.carousel translated.owl.carousel',
       function (e) {
 
-          if (e.item.index == 2) // Not sure why first is index 2?
+          if (e.item.index == 2 || e.item.index == 5) // Not sure why first is index 2 or 5?
           {
               if (fading == false)
               {
