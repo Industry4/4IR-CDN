@@ -202,7 +202,7 @@ $(document).ready(function() {
 
 	var fading = false;
 
-	var owl = $('.owl-carousel');
+	var owl = $('#jumbotron-slider');
 
 	owl.on('initialized.owl.carousel translated.owl.carousel',
       function (e) {
