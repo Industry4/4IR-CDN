@@ -5972,12 +5972,6 @@ form.event-register .form-control {
 	}
 	
 	header.navbar .navbar-nav > li > a,
-	header.navbar .navbar-nav > li.active > a,
-	header.navbar .navbar-nav > li.active > a:hover, 
-	header.navbar .navbar-nav > li.active > a:focus,
-	header.navbar .navbar-nav > li.open > a, 
-	header.navbar .navbar-nav > li.open > a:hover, 
-	header.navbar .navbar-nav > li.open > a:focus,
 	.navbar-transparent.navbar-offset .navbar-nav > .active > a, 
 	.navbar-transparent.navbar-offset .navbar-nav > .active > a:hover, 
 	.navbar-transparent.navbar-offset .navbar-nav > .active > a:focus,
@@ -5986,7 +5980,21 @@ form.event-register .form-control {
 	.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 		background-color:#FFFFFF;
 		color:#555555;
-		padding:8px 0;
+		padding:8px 12px;
+		border-bottom:2px solid #E5E5E5;
+		font-size:14px;
+		font-weight:600;
+	}
+
+	header.navbar .navbar-nav > li.active > a,
+	header.navbar .navbar-nav > li.active > a:hover, 
+	header.navbar .navbar-nav > li.active > a:focus,
+	header.navbar .navbar-nav > li.open > a, 
+	header.navbar .navbar-nav > li.open > a:hover, 
+	header.navbar .navbar-nav > li.open > a:focus {
+		background-color:#FFFFFF;
+		color:#ffffff;
+		padding:8px 12px;
 		border-bottom:2px solid #E5E5E5;
 		font-size:14px;
 		font-weight:600;
