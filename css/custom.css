@@ -1441,7 +1441,7 @@ header.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 }
 
 .jumbotron6 #smema-family {
-	background-image:url(//cdn.4ir.uk/image/smema-adaptor-20-countries-team.jpg); 
+	background-image:url(../image/smema-adaptor-20-countries-team.jpg); 
     background-position:center;
     background-repeat:no-repeat;
 }
@@ -1558,7 +1558,7 @@ header.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 }
 
 .jumbotron6 #multiplug-powered {
-	background-image:url(//cdn.4ir.uk/image/multiplug-powered.jpg); 
+	background-image:url(../image/multiplug-powered.jpg); 
     background-position:center;
     background-repeat:no-repeat;
 }
@@ -1654,6 +1654,111 @@ header.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 	}
 }
 
+/* JUMBOTRON 6 - productronica */
+
+.jumbotron6 #productronica .btn:hover
+{
+	color:#B80000;
+    background-color: white;
+}
+
+.jumbotron6 #productronica {
+	background-image:url(../image/productronica-25.jpg); 
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.jumbotron6 #productronica h2 {
+	font-size:60px;
+	line-height:70px;
+	padding:20px;
+	margin:100px 0 30px;
+}
+
+.jumbotron6 #productronica h3 {
+	font-size:36px;
+	margin:0 0 30px;
+    text-transform:initial;
+	font-weight:100;
+}
+
+.jumbotron6 #productronica .btn {
+	font-size:20px;
+	border-radius:0;
+	color:#FFFFFF;
+    background-color:#0000004d;
+}
+
+.jumbotron6 #productronica span {
+	font-size:20px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-weight:bold;
+	position:relative;
+	top:5px;
+	margin:0 10px;
+}
+
+@media (max-width:640px) {
+	.jumbotron6 #productronica h2 {
+		font-size:50px;
+		line-height:60px;
+		margin:80px 0 30px;
+	}
+
+	.jumbotron6 #productronica h3 {
+		font-size:24px;
+		margin:0 0 20px;
+	}
+}
+
+@media (max-width:568px) {
+	.jumbotron6 h3 {
+		font-size:20px;
+		line-height:30px;
+	}
+	
+	.jumbotron6 #productronica h2 {
+		font-size:44px;
+    	line-height:54px;
+	}
+}
+
+@media (max-width:480px) {
+	.jumbotron6 #productronica h2 {
+		font-size:45px;
+		line-height:55px;
+		margin:60px 0 20px;
+	}
+	
+	.jumbotron6 #productronica h3 {
+		font-size:20px;
+		margin:0 10px 20px;
+	}
+	
+	.jumbotron6 #productronica {
+		font-size:18px;
+	}
+
+}
+
+@media (max-width:360px) {
+	.jumbotron6 #productronica h2 {
+		font-size:40px;
+		line-height:50px;
+		margin:40px 0 20px;
+	}
+	
+	.jumbotron6 #productronica h3 {
+		font-size:24px;
+		margin:0 0 20px;
+	}
+	
+	.jumbotron6 #productronica .btn {
+		font-size:14px;
+	}
+}
+
 /* JUMBOTRON 6 - ipc-2591 */
 
 .jumbotron6 #ipc-2591 .btn:hover
@@ -1663,7 +1768,7 @@ header.navbar-transparent.navbar-offset .navbar-nav > .open > a:focus {
 }
 
 .jumbotron6 #ipc-2591 {
-	background-image:url(//cdn.4ir.uk/image/cfx-connected-factory-exchange.jpg); 
+	background-image:url(../image/cfx-connected-factory-exchange.jpg); 
     background-position:center;
     background-repeat:no-repeat;
 }
