@@ -201,13 +201,14 @@ $(document).ready(function() {
 	------------------------------*/
 
 	var fading = false;
+	var prodfading = false;
 
 	var owl = $('#jumbotron-slider');
 
 	owl.on('initialized.owl.carousel translated.owl.carousel',
       function (e) {
 
-          if (e.item.index == 2 || e.item.index == 5) // Not sure why first is index 2 or 5?
+          if (e.item.index == 2 || e.item.index == 6) // Not sure why first is index 2 or 5?
           {
               if (fading == false)
               {
@@ -227,6 +228,25 @@ $(document).ready(function() {
           {
               fading = false;
               $(".smema-fadein").css("display", "none");
+          }
+
+          if (e.item.index == 3 || e.item.index == 7) // Not sure why first is index 2 or 5?
+          {
+              if (prodfading == false) {
+                  prodfading = true;
+
+                  window.setTimeout(function () {
+                      if (prodfading == true) {
+                          $(".productronica-fadein").fadeIn("slow", function () {
+                              fading = false;
+                          });
+                      }
+                  }, 2000);
+              }
+          }
+          else {
+              prodfading = false;
+              $(".productronica-fadein").css("display", "none");
           }
       });
 	
